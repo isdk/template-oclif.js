@@ -1,0 +1,48 @@
+files:
+  - README.md
+  - package.json
+  - src/oclif/commands/hello/index.ts
+  - src/oclif/lib/help.ts
+parameters:
+  name:
+    name: name
+    type: string
+    title: Package Name
+    description: Enter package name here
+    default: ""
+  description:
+    name: description
+    type: string
+    title: Pacakge Description
+    description: Enter description here
+    default: ""
+  version:
+    name: version
+    type: string
+    title: Package Version
+    description: Enter version here
+    default: "0.1.0"
+  author:
+    name: author
+    type: string
+    title: Author
+    description: Enter author here
+    default: ""
+  bin:
+    name: bin
+    type: string
+    title: Bin
+    description: Enter bin here
+    default: ""
+  githubRepo:
+    name: githubRepo
+    type: string
+    title: Github Repo
+    description: Enter githubRepo here
+    default: ""
+  license:
+    name: license
+    type: string
+    title: License
+    description: Enter license here
+    default: "MIT"
