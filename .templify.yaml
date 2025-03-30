@@ -46,3 +46,6 @@ parameters:
     title: License
     description: Enter license here
     default: "MIT"
+clean:
+  - .templify.yaml
+  - .git
