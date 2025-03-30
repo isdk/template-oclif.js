@@ -10,8 +10,10 @@
   "dependencies": {
     "@isdk/artistic-text": "^0.1.1",
     "@oclif/core": "^4",
+    "@oclif/plugin-autocomplete": "^3.2.26",
     "@oclif/plugin-help": "^6",
     "@oclif/plugin-plugins": "^5",
+    "@oclif/plugin-version": "^2.2.27",
     "custom-ability": "^2.0.1"
   },
   "devDependencies": {
@@ -59,8 +61,10 @@
       "command_not_found": "./dist/oclif/hooks/command-not-found"
     },
     "plugins": [
+      "@oclif/plugin-autocomplete",
       "@oclif/plugin-help",
-      "@oclif/plugin-plugins"
+      "@oclif/plugin-plugins",
+      "@oclif/plugin-version"
     ],
     "topicSeparator": " ",
     "topics": {
